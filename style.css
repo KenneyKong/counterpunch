@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@700&family=Press+Start+2P&family=Russo+One&family=Teko:wght@700&display=swap');
+
+body {
+  background-image: url(https://wallpapercave.com/wp/wp2259241.png);
+  background-position: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4773B9;
+}
+
+header {
+  font-size: 6.3vw;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: green;
+}
+#countLabel {
+  display: grid;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-top: -1.6vw;
+  margin-left: -11.7vw;    
+  padding-top: 2.4vw;
+  text-align: center;
+  font-size: 7vw;
+  font-family: 'Bangers','Press Start 2P', cursive;
+  color: black;
+  border: 0.5px solid;
+  border-radius: 50%;
+  width: 23.4vw;
+  height: 9.4vw;
+  background-color: rgba(239, 11, 0, 0.7);
+}
+
+.container {
+  display: inline-grid;
+  justify-content: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-top: -3.9vw;
+  margin-left: -3.9vw;
+  width: 7.8vw;
+  height: 7.8vw;
+}
+
+button {
+  border-radius: 20%;
+  margin-top: 50px;
+  margin-bottom: 1px;
+  border: 0.5px solid;
+  width: 5.5vw;
+  height: 5.5vw;
+}
+
+#decreaseBtn {
+  background-color: rgba(255, 81, 0, 0.7);
+  font-weight: 700;
+  font-size: 2.3vw;
+  width: 5.5vw;
+  height: 5.5vw;
+}
+
+#resetBtn {
+  background-color: rgba(239, 11, 0, 0.7);
+  font-weight: 700;
+  font-size: 2.3vw;
+  width: 5.5vw;
+  height: 5.5vw;
+}
+
+#increaseBtn {
+  background-color: green;
+  font-weight: 700;
+  font-size: 2.3vw;
+  width: 11.8vw;
+  height: 11.8vw;
+  background: rgba(76, 175, 80, 0.8)
+}
